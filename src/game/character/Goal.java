@@ -2,7 +2,7 @@ package game.character;
 
 import game.GameEngine;
 import java.util.*;
-class Goal extends Stationary {
+public class Goal extends Stationary {
 
     @Override
     public boolean detectCollision(ArrayList<Character> moving) {
